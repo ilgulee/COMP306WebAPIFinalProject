@@ -199,6 +199,34 @@
     <Compile Include="Migrations\201712300845562_PopulateCoursesTable.Designer.cs">
       <DependentUpon>201712300845562_PopulateCoursesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801011156309_PopulateCoursesTableSemester2.cs" />
+    <Compile Include="Migrations\201801011156309_PopulateCoursesTableSemester2.Designer.cs">
+      <DependentUpon>201801011156309_PopulateCoursesTableSemester2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011208331_PopulateCoursesTableSemester3.cs" />
+    <Compile Include="Migrations\201801011208331_PopulateCoursesTableSemester3.Designer.cs">
+      <DependentUpon>201801011208331_PopulateCoursesTableSemester3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011310441_PopulateCoursesTableSemester4.cs" />
+    <Compile Include="Migrations\201801011310441_PopulateCoursesTableSemester4.Designer.cs">
+      <DependentUpon>201801011310441_PopulateCoursesTableSemester4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011316128_PopulateCoursesTableSemester4TechElective.cs" />
+    <Compile Include="Migrations\201801011316128_PopulateCoursesTableSemester4TechElective.Designer.cs">
+      <DependentUpon>201801011316128_PopulateCoursesTableSemester4TechElective.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011318551_PopulateCoursesTableSemester5.cs" />
+    <Compile Include="Migrations\201801011318551_PopulateCoursesTableSemester5.Designer.cs">
+      <DependentUpon>201801011318551_PopulateCoursesTableSemester5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011324374_PopulateCoursesTableSemester6.cs" />
+    <Compile Include="Migrations\201801011324374_PopulateCoursesTableSemester6.Designer.cs">
+      <DependentUpon>201801011324374_PopulateCoursesTableSemester6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801011341551_PopulateCoursesTableSemester6TechElective.cs" />
+    <Compile Include="Migrations\201801011341551_PopulateCoursesTableSemester6TechElective.Designer.cs">
+      <DependentUpon>201801011341551_PopulateCoursesTableSemester6TechElective.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\SoftwareEngineeringTechnologyCoursesContext.cs" />
@@ -287,6 +315,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712300845562_PopulateCoursesTable.resx">
       <DependentUpon>201712300845562_PopulateCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011156309_PopulateCoursesTableSemester2.resx">
+      <DependentUpon>201801011156309_PopulateCoursesTableSemester2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011208331_PopulateCoursesTableSemester3.resx">
+      <DependentUpon>201801011208331_PopulateCoursesTableSemester3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011310441_PopulateCoursesTableSemester4.resx">
+      <DependentUpon>201801011310441_PopulateCoursesTableSemester4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011316128_PopulateCoursesTableSemester4TechElective.resx">
+      <DependentUpon>201801011316128_PopulateCoursesTableSemester4TechElective.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011318551_PopulateCoursesTableSemester5.resx">
+      <DependentUpon>201801011318551_PopulateCoursesTableSemester5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011324374_PopulateCoursesTableSemester6.resx">
+      <DependentUpon>201801011324374_PopulateCoursesTableSemester6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801011341551_PopulateCoursesTableSemester6TechElective.resx">
+      <DependentUpon>201801011341551_PopulateCoursesTableSemester6TechElective.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
