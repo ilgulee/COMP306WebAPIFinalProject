@@ -5,8 +5,14 @@ using System.Web;
 
 namespace SoftwareEngineeringTechnologyCourses.Models
 {
+    /// <summary>
+    /// Represents one specific course
+    /// </summary>
     public class Course
-    {
+    {   
+        /// <summary>
+        /// Id from SQL
+        /// </summary>
         public int Id { get; set; }
         public string Code { get; set; }
         public string Title { get; set; }

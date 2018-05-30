@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SoftwareEngineeringTechnologyCoursesContext-Web.config Connection String" description="SoftwareEngineeringTechnologyCoursesContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=SoftwareEngineeringTechnologyCoursesContext-20171230025005; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|SoftwareEngineeringTechnologyCoursesContext-20171230025005.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\iglee\\Documents\\GitHub\\COMP306WebAPIFinalProject\\SoftwareEngineeringTechnologyCourses\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SoftwareEngineeringTechnologyCoursesContext']/@connectionString" />
+  </parameter>
+</parameters>

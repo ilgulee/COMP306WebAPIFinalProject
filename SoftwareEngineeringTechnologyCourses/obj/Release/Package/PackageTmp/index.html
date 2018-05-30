@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/myApp.css" rel="stylesheet" />
+    <title>Hello, world!</title>
+</head>
+<body>
+
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 center-block">
+                    <div class="center">
+                        <h1>Try it now!</h1>
+                        <div class="input-group pad_top">
+                            <span id="url" class="input-group-addon">dummy address</span>
+                            <input id="interactive" type="text" class="form-control" placeholder="courses" />
+                            <span class="input-group-btn">
+                                <button onclick="interactive_call()" class="btn btn-primary">GET </button>
+                            </span>
+                        </div>
+                        <small>
+                            Need a hint to GET information? try
+                            <a href="" title="courses" onclick="chooseAnchor(); return false;"><i>courses</i></a>
+                            or
+                            <a href="" title="courses/5" onclick="chooseAnchor(); return false;"><i>courses/5</i></a>
+                        </small>
+                        <div class="input-group pad_top">
+                            <span id="urlPost" class="input-group-addon">dummy address</span>
+                            <input disabled="disabled" id="interactivePost" type="text" class="form-control" title="courses" placeholder="courses" />
+                            <span class="input-group-btn">
+                                <button onclick="interactive_post()" class="btn btn-primary">POST</button>
+                            </span>
+                        </div>
+                        <div class="input-group pad_top">
+                            <span id="urlPut" class="input-group-addon">dummy address</span>
+                            <input id="interactivePut" type="text" class="form-control" placeholder="courses/id" />
+                            <span class="input-group-btn">
+                                <button onclick="interactive_put()" class="btn btn-primary">PUT </button>
+                            </span>
+                        </div>
+                        <div class="input-group pad_top">
+                            <span id="urlDelete" class="input-group-addon">dummy address</span>
+                            <input id="interactiveDelete" type="text" class="form-control" placeholder="courses/id" />
+                            <span class="input-group-btn">
+                                <button onclick="interactive_delete()" class="btn btn-primary">DELETE</button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <p class="lead pad_top">
+                        Resource for
+                        <span id="interactive_name"></span>
+                    </p>
+                    <pre id="interactive_output" class="pre-scrollable"></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="Scripts/jquery-3.2.1.js"></script>
+   <!-- <script src="Scripts/jquery-3.2.1.min.js"></script>-->
+    <script src="Scripts/myApp.js"></script>
+</body>
+</html>

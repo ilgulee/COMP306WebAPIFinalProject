@@ -1,0 +1,28 @@
+﻿.pad_top {
+    padding-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.input-group-addon {
+   
+    background-color: #f5f5f5;
+}
+pre {
+    
+    position: relative;
+    margin-bottom: 30px;
+    display: block;
+    word-break: break-all;
+    word-wrap: break-word;
+    
+    
+    
+}
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y:scroll;
+    
+}

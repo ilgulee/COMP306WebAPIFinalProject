@@ -19,6 +19,8 @@
     <WebStackScaffolding_DbContextTypeFullName>SoftwareEngineeringTechnologyCourses.Models.SoftwareEngineeringTechnologyCoursesContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ProjectView>ProjectFiles</ProjectView>
+    <NameOfLastUsedPublishProfile>SoftwareEngineeringTechnologyCourses - Web Deploy</NameOfLastUsedPublishProfile>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

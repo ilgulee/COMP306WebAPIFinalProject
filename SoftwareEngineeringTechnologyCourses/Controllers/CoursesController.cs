@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using SoftwareEngineeringTechnologyCourses.Models;
@@ -15,7 +11,10 @@ namespace SoftwareEngineeringTechnologyCourses.Controllers
     public class CoursesController : ApiController
     {
         private SoftwareEngineeringTechnologyCoursesContext db = new SoftwareEngineeringTechnologyCoursesContext();
-
+        /// <summary>
+        /// Gets a list of the courses available
+        /// </summary>
+        /// <returns>A list of all courses</returns>
         // GET: api/Courses
         public IQueryable<Course> GetCourses()
         {

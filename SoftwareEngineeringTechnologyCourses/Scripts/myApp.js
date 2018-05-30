@@ -12,14 +12,12 @@
    
 });
 
-
 function chooseAnchor() {
     $("a").click(function() {
         var url = $(this).attr("title");
         $("#interactive").val(url);
     });
 }
-
 
 function interactive_call() {
     var url = $("#interactive").val() ;
@@ -59,6 +57,7 @@ function interactive_post() {
         }
     });
 }
+
 function interactive_put() {
     var path = $("#interactivePut").val();
     var changedCourse = {
@@ -84,6 +83,7 @@ function interactive_put() {
         }
     });
 }
+
 function interactive_delete() {
     var path = $("#interactiveDelete").val();
     $.ajax({
@@ -95,6 +95,4 @@ function interactive_delete() {
             console.info("Deleted.");
         }
     });
-
-
 }
